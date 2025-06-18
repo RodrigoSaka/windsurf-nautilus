@@ -1,0 +1,11 @@
+post_install() {
+    echo "Please restart nautilus to use the extension."
+}
+
+post_upgrade() {
+    echo "Please restart nautilus to use the extension."
+}
+
+post_remove() {
+    echo "Please restart nautilus to remove the extension."
+}
